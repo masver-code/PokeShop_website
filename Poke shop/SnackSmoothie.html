@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Thomas Vermette, Mariam Caceres, Valerie Featherstone"
+    />
+    <meta
+      name="keywords"
+      content="Poke Bowl, healthy, fast-food, influencers, smoothies"
+    />
+    <title>Poke Shop / Snacks</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Menus.html">Menus</a></li>
+          <li><a href="Specials.html">Specials</a></li>
+          <li><a href="Influencers.html">Influencers</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="Snack-header">
+      <p class="container">Select which Snacks or Smoothies You Wish to Buy</p>
+    </div>
+    <!--Smoothies-->
+    <div class="container">
+      <h4>Smoothies</h4>
+    </div>
+    <div class="display">
+      <div>
+        <img src="./Images/menu/green-smoothie.webp" alt="" />
+        <input type="checkbox" name="green-smoothie" id="check1" />
+        <h3>Green cleanser</h3>
+        <p>For days in which you need energy and happiness</p>
+      </div>
+      <div>
+        <img src="./Images/menu/brown-smoothie.webp" alt="" />
+        <input type="checkbox" name="brown-smoothie" id="check2" />
+        <h3>Protein booster</h3>
+        <p>Perfect after a big workout or a breakfast substitute</p>
+      </div>
+      <div>
+        <img src="./Images/menu/orange-smoothie.webp" alt="" />
+        <input type="checkbox" name="orange-smoothie" id="check3" />
+        <h3>Sunset Refresher</h3>
+        <p>Great after a long week or a hard day, relax and enjoy</p>
+      </div>
+      <div>
+        <img src="./Images/menu/pink-smoothie.webp" alt="" />
+        <input type="checkbox" name="pink-smoothie" id="check4" />
+        <h3>Tropical blast</h3>
+        <p>A Boost of energy when you need it!</p>
+      </div>
+    </div>
+    <!--Snacks-->
+    <div class="container">
+      <h4>Snacks</h4>
+    </div>
+    <div class="display">
+      <div>
+        <img src="./Images/menu/yellow-soup.webp" alt="" />
+        <input type="checkbox" name="green-smoothie" id="check1" />
+        <h3>Peanut Soup</h3>
+        <p>Great for skin care and pain relief</p>
+      </div>
+      <div>
+        <img src="./Images/menu/brown-soup.webp" alt="" />
+        <input type="checkbox" name="brown-smoothie" id="check2" />
+        <h3>Wholesome Soup</h3>
+        <p>Everyday soup, amazing all days of the week</p>
+      </div>
+      <div>
+        <img src="./Images/menu/orange-soup.webp" alt="" />
+        <input type="checkbox" name="orange-smoothie" id="check3" />
+        <h3>Bean soup</h3>
+        <p>Fulfilling soup you'll want on a cold day</p>
+      </div>
+      <div>
+        <img src="./Images/menu/green-soup.webp" alt="" />
+        <input type="checkbox" name="orange-smoothie" id="check3" />
+        <h3>Cauliflower Soup</h3>
+        <p>Made for stress and stomach pain</p>
+      </div>
+    </div>
+    <div class="Checkout">
+      <a href="#" class="button">Check out!</a>
+    </div>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Menus.html">Menus</a></li>
+            <li><a href="Specials.html">Specials</a></li>
+            <li><a href="Influencers.html">Influencers</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Location</h2>
+          <p>10765 Pineapple avenue</p>
+          <p>southwest florida I95</p>
+          <p>450-909-0403</p>
+          <br />
+          <a href="aboutUs.html" class="button">Info About Us! </a>
+        </div>
+        <div>
+          <h2>Subscribe Now For Exclusive Specials</h2>
+          <form action="">
+            <label for="name">Enter Your Name</label>
+            <input type="name" id="name" name="name" placeholder="John Doe" />
+            <br />
+            <label for="email">Enter Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Pokeshop@gmail.com"
+            />
+            <br />
+            <input type="submit" class="button" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--translate-->
+  <div id="google_translate_element"></div>
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        },
+        "google_translate_element"
+      );
+    }
+  </script>
+
+  <script
+    type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+  ></script>
+</html>

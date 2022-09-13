@@ -1,0 +1,303 @@
+/* General styles*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #fff;
+  color: black;
+  line-height: 1.6;
+}
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+ul {
+  list-style: none;
+}
+p {
+  font-size: 1.25rem;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  border-bottom: 2px black dotted;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.section {
+  margin-top: 3rem;
+  display: flex;
+}
+.navbar {
+  background-color: #fef6ce;
+  color: #fff;
+
+  width: 100%;
+  padding: 0.5rem 0;
+  position: fixed;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 0 2rem;
+}
+/* Home page index styles*/
+.homepage {
+  background: url("../Images/homepage.jpg") no-repeat center/cover;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.homepage_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-shadow: 2px 2px black;
+}
+
+#homepage_motto {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+.button {
+  margin-top: 2rem;
+  color: #fff;
+  background-color: #609c8e;
+  padding: 1rem;
+  border-radius: 55%;
+}
+.text-section {
+  width: 50%;
+  padding: 2rem;
+}
+.text-section p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.photo-section {
+  width: 50%;
+  padding: 2rem;
+}
+.photo-section img {
+  border-radius: 50%;
+}
+a.button {
+  padding: 1rem;
+  border-radius: 55%;
+  transition: all 0.3s ease-in-out;
+}
+a.button:hover {
+  border-bottom: #000000 3px solid;
+  transform: scale(1.5);
+}
+.testimonials {
+  background-color: #609c8e;
+  color: #fff;
+  width: 70%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 5%;
+}
+.testimonials h2 {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 3rem;
+}
+.testimonials p:nth-child(2) {
+  margin: 0 2rem;
+}
+.testimonials p:nth-child(3) {
+  text-align: center;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.footer > * {
+  width: 33%;
+}
+.footer ul li :hover {
+  border-bottom: #000000 2px solid;
+}
+/* menu styles*/
+.menu-header img {
+  border-radius: 2%;
+}
+
+.menu-textbox {
+  margin: 4rem 0;
+  text-align: center;
+}
+.button-choice {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0;
+}
+
+#Snack-button {
+  background-color: #96c9a3;
+  padding: 3rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+#Snack-button:hover {
+  background-color: #fef6ce;
+  transform: scale(1.5);
+}
+#Poke-button {
+  background-color: #cfe6ca;
+  padding: 3rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+#Poke-button:hover {
+  background-color: #fef6ce;
+  transform: scale(1.5);
+}
+.display {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.display > * {
+  padding: 1rem;
+  text-align: center;
+}
+.display .product :hover {
+  background-color: #000000;
+}
+
+/* Snack & smoothie styles */
+
+#Snack-header {
+  background-image: url(../Images/water-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Snack-header p {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 4rem;
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+}
+.container h4 {
+  font-size: 3rem;
+  margin: 0 auto;
+  padding: 0%;
+  border-top: #000000 2px solid;
+  border-bottom: #000000 2px solid;
+  width: 40%;
+  text-align: center;
+}
+/* contact us*/
+
+.contactus {
+  background: url("../Images/contact-us/contactus11.jpg") no-repeat center/cover;
+  background-size: cover;
+  position: relative;
+  height: 40vh;
+}
+
+#contacus_message {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+#get_in_touch {
+  text-shadow: 2px 2px #000000;
+}
+
+.container-contact {
+  width: 1000px;
+  padding: 0rem;
+  margin: 0 auto;
+}
+
+.photo-section-contact {
+  width: 50%;
+  padding: 0rem;
+  height: 300px;
+}
+
+.form-section {
+  background-color: #fef6ce;
+  width: 50%;
+  padding: 2rem;
+}
+.form-section p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  margin: 0.5em auto 0.5em;
+}
+
+#map {
+  height: 100%;
+  min-height: 30em;
+  margin: 0;
+  padding: 0;
+}
+.find-us {
+  background-color: #609c8e;
+  color: #fff;
+  width: 1080px;
+  margin: 2rem auto 4rem;
+  padding: 0rem;
+  height: 500px;
+}
+
+.find-us h2 {
+  text-align: center;
+  padding: 0rem;
+  font-size: 3rem;
+}
+.margin-top {
+  margin-top: 3rem;
+}
+
+#specials {
+  text-shadow: 2px 2px #000000;
+}
+.specials {
+  background: url("/Images/specials/deals.jpg") no-repeat center/cover;
+  position: relative;
+  height: 30vh;
+}
+.Checkout {
+  display: flex;
+  justify-content: center;
+}
